@@ -1,0 +1,22 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:tictactoe"
+             x:Class="tictactoe.App">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <!-- Background and text color overrides -->
+            <Color x:Key="PageBackgroundColor">White</Color>
+            <Color x:Key="Primary">Black</Color>
+            <Color x:Key="PrimaryTextColor">Black</Color>
+            <Color x:Key="SecondaryTextColor">Gray</Color>
+
+            <!-- Optional: Remove default purple theme -->
+            <Style TargetType="ContentPage">
+                <Setter Property="BackgroundColor" Value="{StaticResource PageBackgroundColor}" />
+            </Style>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
